@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title>cricket score counter</title> 
+    </head>
+    <body>
+         <div class="container">
+             <div class ="lol">
+            <div class="column" id ="hometeam" >
+                
+                <div class="teams">
+                
+                <h3 class="team" id="home-team">HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                 <div class="btn-wrapper">
+                    <button class="btn" onclick="addPoints('home',1)" >+1</button>
+                    <button class="btn" onclick="addPoints('home',4)">+4</button>
+                    <button class="btn" onclick="addPoints('home',6)">+6</button>
+                </div>
+            
+                </div>
+            </div>
+            <div class="column" id ="guestteam">
+                <div class="teams">
+                    
+                <h3 class="team" id="guest-team">GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                 <div class="btn-wrapper">
+                    <button class="btn" onclick="addPoints('guest',1)">+1</button>
+                    <button class="btn" onclick="addPoints('guest',4)">+4</button>
+                    <button class="btn" onclick="addPoints('guest',6)">+6</button>
+                </div>
+                
+                </div>
+            </div> 
+            </div>         
+        </div>
+        <button class="btn" id ="newgame" onclick="newgame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>

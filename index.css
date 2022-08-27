@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/365/977/original/cricket-stadium-illustration-vector.jpg");
+    height:100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/000/365/977/original/cricket-stadium-illustration-vector.jpg");
+    height:100vh; */
+    flex-direction: row;
+}
+
+.teams{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: white;
+    margin-bottom: 20px;
+    /* display: inline-block; */
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hometeam {
+    display: inline-block;
+    width:320px;
+    
+   
+}
+#guestteam {
+    display: inline-block;
+    width:320px;
+   
+}
+.btn:hover
+{
+    background-color: black;
+    color:white;
+}
+
+#newgame
+{
+    text-align: centre;
+    align-self: center;
+    justify-self: center;
+    margin: 0 0 0 45%;
+}
+
